@@ -1,14 +1,15 @@
-package com.example.listleague
+package com.example.listleague.activity
 
 import android.graphics.Color
 import android.graphics.Typeface
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.example.listleague.Const.PARCELABLE_ITEM_DATA
-import com.example.listleague.Const.idImage
-import com.example.listleague.Const.idName
-import com.example.listleague.Const.idView
+import com.example.listleague.model.LeagueData
+import com.example.listleague.utils.Const.PARCELABLE_ITEM_DATA
+import com.example.listleague.utils.Const.idImage
+import com.example.listleague.utils.Const.idName
+import com.example.listleague.utils.Const.idView
 import com.squareup.picasso.Picasso
 import org.jetbrains.anko.*
 

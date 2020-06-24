@@ -1,4 +1,4 @@
-package com.example.listleague
+package com.example.listleague.utils
 
 import android.content.res.Resources
 

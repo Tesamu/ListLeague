@@ -1,4 +1,4 @@
-package com.example.listleague
+package com.example.listleague.utils
 
 object Const {
     const val ivLeagueID = 1
