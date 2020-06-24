@@ -1,4 +1,4 @@
-package com.example.listleague
+package com.example.listleague.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

@@ -3,8 +3,9 @@ package com.example.listleague
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
-import com.example.listleague.Const.ivLeagueID
-import com.example.listleague.Const.tvLeagueId
+import com.example.listleague.utils.Const.ivLeagueID
+import com.example.listleague.utils.Const.tvLeagueId
+import com.example.listleague.utils.dp
 import org.jetbrains.anko.*
 
 class LeagueUI : AnkoComponent<ViewGroup> {

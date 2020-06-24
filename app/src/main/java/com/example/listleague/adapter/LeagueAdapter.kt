@@ -1,19 +1,23 @@
-package com.example.listleague
+package com.example.listleague.adapter
 
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.listleague.Const.ivLeagueID
-import com.example.listleague.Const.tvLeagueId
+import com.example.listleague.model.LeagueData
+import com.example.listleague.LeagueUI
+import com.example.listleague.utils.Const.ivLeagueID
+import com.example.listleague.utils.Const.tvLeagueId
 import com.squareup.picasso.Picasso
 import org.jetbrains.anko.AnkoContext
 
 class LeagueAdapter(private val items: List<LeagueData>, private val listener: (LeagueData) -> Unit) : RecyclerView.Adapter<LeagueAdapter.MovieViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
-        return MovieViewHolder(LeagueUI().createView(AnkoContext.create(parent.context, parent)))
+        return MovieViewHolder(
+            LeagueUI()
+                .createView(AnkoContext.create(parent.context, parent)))
     }
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
