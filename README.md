@@ -1,2 +1,2 @@
 # ListLeague
-Submission 1 Dicoding kotlin Expert
+Submission Dicoding kotlin Expert
